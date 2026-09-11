@@ -1,0 +1,20 @@
+{
+  "modele": "LogisticRegression",
+  "hyperparametres": {
+    "clf__C": 0.01,
+    "clf__penalty": "l2"
+  },
+  "resampling": "SMOTEENN",
+  "metrique_selection": "F2 (beta=2)",
+  "f2_cv": 0.7483941075863997,
+  "seuil_decision": 0.5002222222222222,
+  "metriques_test": {
+    "seuil_utilise": 0.5002222222222222,
+    "F2": 0.7527372262773723,
+    "Rappel": 0.889487870619946,
+    "Précision": 0.4661016949152542,
+    "F1": 0.6116774791473587,
+    "ROC-AUC": 0.8441049827320714,
+    "PR-AUC": 0.6395096823663257
+  }
+}
